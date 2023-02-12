@@ -1,0 +1,268 @@
+body{
+    font-family: monospace, 'Courier New', Courier;
+    background-color: #EFEAE8;
+}
+
+nav{
+    margin-bottom: 2%;
+    padding: 2% 10%;
+    background-color: #153D3C;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    color: white;
+    font-weight: 900;
+    font-size: 12pt;
+    margin: 0 2% 0.5% 2%;
+    padding: 1%;
+    border: solid 1.5px rgb(239,234,232,0.75);
+    border-radius: 10px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+nav ul li.current{
+    background-color: #EFEAE8;
+    text-transform: uppercase;
+}
+
+nav a.current{
+    color: #153D3C;
+    font-weight: bold;
+    text-decoration: dotted underline overline #153D3C;
+    text-underline-offset: 1%;
+}
+
+header h1{
+    margin: 4% 6%;
+    text-align: center;
+    color: #153D3C;
+    text-transform: uppercase;
+    font-size: 32pt;
+    font-weight: 1000;
+    letter-spacing: 4px;
+    border-style: dotted;
+    border-width: 4px 0;
+    padding: 1%;
+}
+
+header p{
+    margin: 0 6%;
+    background-color: #153D3C;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+main{
+    margin: 2% 6%;
+    font-size: 12pt;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border: dotted #153D3C 4px;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+img#indexImage{
+    margin-bottom: 2%;
+    width: 100%;
+    padding: 0.25%;
+    border: none;
+    border-radius: 20px;
+}
+
+img:hover{
+    box-shadow: 10px 10px 5px #153d3c67;
+    transform: translate(-0.5%, -0.5%);
+}
+
+p{
+    color: #153D3C;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 13pt;
+}
+
+p#headParagraph{
+    text-indent: 3%;
+    margin-bottom: 4%;
+}
+
+p#headParagraph a{
+    text-decoration: dotted underline;
+    text-underline-offset: 4px;
+    color: #153D3C;
+}
+
+#pageDescription{
+    background-color: #e4bcb4;
+    border-radius: 20px;
+    padding: 2%;
+    margin-bottom: 4%;
+}
+
+#pageDescription>p{
+    font-weight: bold;
+    font-size: 15pt;
+    margin-bottom: 2%;
+}
+
+.gridPage{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+}
+
+.gridPage div{
+    background-color: #EFEAE8;
+    border-radius: 20px;
+    padding: 3%;
+}
+
+.gridPage div h2{
+    color: white;
+    font-size: 14pt;
+    font-weight: bold;
+    background-color: #153D3C;
+    border-radius: 10px;
+    padding: 2% 4%;
+    margin-bottom: 3%;
+}
+
+.gridPage div p{
+    line-height: 1.25;
+    padding: 0 2%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    row-gap: 40px;
+    margin-bottom: 6%;
+}
+
+.grid div{
+    background-color: #F0DBC2;
+    border-radius: 20px;
+    padding: 5%;
+}
+
+.grid div h2{
+    background-color: #153D3C;
+    font-size: 24pt;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 6%;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.grid div img{
+    margin-bottom: 6%;
+}
+
+.grid div h3{
+    color: #153D3C;
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 1%;
+    margin-top: 4%;
+}
+
+.grid div p{
+    line-height: 1.25;
+    text-indent: 8%;
+    margin-bottom: 3%;
+}
+
+.grid div ul li{
+    color: #153D3C;
+    font-size: 11pt;
+    list-style: "\1F4C3" inside;
+}
+
+#disclaimer{
+    background-color: #F0DBC2;
+    border-radius: 20px;
+    padding: 1% 2%;
+    margin-bottom: 4%;
+}
+
+#disclaimer p span{
+    color: white;
+    font-weight: bold;
+    background-color: #153D3C;
+    border-radius: 10px;
+    padding: 0.25% 1%;
+}
+
+dl.grid div{
+    background-color: #e4bcb4;
+}
+
+dt{
+    background-color: #F0DBC2;
+    color: #153D3C;
+    border-radius: 10px;
+    padding: 2% 4%;
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+dd{
+    color: #153D3C;
+    font-size: 13pt;
+    font-weight: bold;
+    padding: 3%;
+}
+
+dd p{
+    font-size: 11pt;
+    font-weight: 400;
+}
+
+footer{
+    background-color: #153D3C;
+    border-radius: 20px 20px 0 0;
+    padding: 1% 2%;
+}
+
+footer p{
+    display: inline-block;
+    color: white;
+    margin-bottom: 1%;
+}
+
+footer p:nth-child(2){
+    font-size: 10pt;
+}
+
+footer a{
+    display: block;
+    text-align: center;
+}
